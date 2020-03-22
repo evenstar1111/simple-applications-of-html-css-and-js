@@ -312,7 +312,6 @@ footer {
 .ftr div a:link, .ftr div a:visited {
     width: 2rem;
     height: 80%;
-    padding: .15rem;
     background-color: white;
     text-align: center;
     text-decoration: none;
