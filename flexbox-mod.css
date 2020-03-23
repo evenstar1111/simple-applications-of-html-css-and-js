@@ -325,3 +325,120 @@ footer {
     transition: color .2s, background-color .2s;
 
 }
+
+@media screen and (max-width:1000px) {
+    .body > section {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        margin: 0;
+    }
+    .top {
+        height: 50vh;
+        background-image: url('https://wonderfulengineering.com/wp-content/uploads/2014/01/HD-backgrounds-42-610x381.jpg');
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .toptext {
+        font-size: 14px;
+    }
+
+    .navigation {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .firsthalf, .secondhalf {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .he {
+        width: 100%;
+        height: 8vh;
+        font-size: 16px;
+    }
+
+    
+    hr {
+        width: 0;
+        size: 0;
+        margin: 0;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .body {
+        height: auto;
+        margin-bottom: 1vh;
+        flex-direction: column;
+    }
+
+    .body section {
+        width: 60%;
+        height: 30vh;
+        font-size: 12px;
+    }
+
+    .body section:first-child, .body section:last-child {
+        border: none;
+        border-right: 2px solid #acacac;
+    }
+
+    .body section:nth-child(2) {
+        border-left: 2px solid #acacac;
+    }
+
+    .bottom {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .author, .addr {
+        width: 100%;
+        height: 40vh;
+        font-size: 18px;
+    }
+
+    .fields, .values {
+        height: auto;
+    }
+
+    .bottom > hr {
+        width: 80vw;
+        height: 1px;
+    }
+
+    footer {
+        height: auto;
+        flex-direction: column;
+    }
+
+    footer .ftr1 {
+        width: 100%;
+        height: 10vh;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    footer .ftr {
+        width: 100%;
+        height: 10vh;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    .ftr div a:link, .ftr div a:visited {
+        width: 60px;
+        height: 60%;
+    }
+}
