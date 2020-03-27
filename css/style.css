@@ -224,6 +224,7 @@ div.footer {
 }
 div.footer-right , div.footer-left {
     height: 8vmax;
+    min-height: 58px;
 }
 #poweredby {
     font-size: 14px;
