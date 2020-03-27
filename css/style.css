@@ -142,6 +142,7 @@ div.profile-image {
 }
 div.profile-image > img {
     width: 50%;
+    min-width: 100px;
     min-height: 145px;
     object-fit: scale-down;
     /* border: 1px solid white; */
