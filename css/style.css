@@ -79,16 +79,17 @@ div.image-card > img {
     height: auto;
     margin-bottom: 2pt;
 }
-span.label{
+div.label{
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
-    width: 40%;
-    height: 5vmax;
-    font-size: 20px;
-    line-height: 5vmax;
-    text-align: center;
+    width: 20%;
+}
+div.label > span {
+    height: 2.5vmax;
+    font-size: 10px;
+    line-height: 2.5vmax;
+    text-align: center;  
 }
 div.buttoncontainer {
     height: 8vmax;
