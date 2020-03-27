@@ -164,9 +164,9 @@ div.feedback-container {
 }
 div.heading {
     width: 95%;
-    height: 12vmax;
+    height: 20vmax;
     font-family: monospace;
-    font-size: 30px;
+    font-size: 24px;
 }
 div.form-container {
     width: 95%;
