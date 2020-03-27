@@ -77,11 +77,12 @@ body {
 }
 
 form {
+    max-width: 550px;
     margin: auto;
     padding: 2rem;
     background-color: #ccc;
     border-radius: 3pt;
-    box-shadow: 8pt 8pt 8px #333;
+    box-shadow: 6pt 6pt 6px #333;
 }
 
 form input, label, button {
@@ -101,8 +102,9 @@ form input {
 
 form input:focus {
     background-color: ;
-    box-shadow: .5px 0 5pt #51a0fb, 0 .5px 5pt #51a0fb, -.5px 0 5pt #51a0fb, 0 -.5px 5pt #1f85f9;
-    transition: background-color .2s, box-shadow .2s;
+    box-shadow: .5px 0 2pt #51a0fb, 0 .5px 2pt #51a0fb, -.5px 0 2pt #51a0fb, 0 -.5px 2pt #1f85f9;
+    transition: background-color .2s, box-shadow .5s;
+    transition-timing-function: cubic-bezier(1, 0, 0, 1);
 }
 
 form button {
