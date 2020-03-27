@@ -57,7 +57,7 @@ div.container {
 /* style for the middle portion */
 
 div.title {
-    height: 10vmax;
+    min-height: 72px;
     padding-left: 8pt;
     border-width: 5px;
     border-style: solid;
@@ -223,7 +223,6 @@ div.footer {
     margin-top: 2pt;
 }
 div.footer-right , div.footer-left {
-    height: 8vmax;
     min-height: 58px;
 }
 #poweredby {
