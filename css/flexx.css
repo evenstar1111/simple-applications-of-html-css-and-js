@@ -1,0 +1,120 @@
+ .flex {
+	display: flex;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+
+/* this is for direction:row */
+
+.row-cen {
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.row-start-cen {
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.row-end-cen {
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.row-start-start {
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.row-end-end {
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-content: flex-end;
+}
+
+.row-even-start {
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-items: start;
+}
+
+.row-even-cen {
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+/* this is for direction:column */
+
+.clm-cen {
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.clm-cen-start {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.clm-start-cen {
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.clm-end-cen {
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.clm-start-start {
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.clm-end-end {
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.clm-even-cen {
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.clm-spbt-cen {
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clm-even-start {
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.clm-spbt-start {
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.clm-even-end {
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}

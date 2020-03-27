@@ -1,0 +1,234 @@
+div.container {
+    height: 100%;
+}
+
+/* style for top portion of the page  */
+/*  //// ****-----///// */
+
+#top-container{}
+
+#navigation {
+    height: auto;
+    color: white;
+    font-size: 22px;
+}
+#right {
+    height: inherit;
+}
+
+#home, #away, #more {
+    height: 8vmax;
+}
+#home:hover, #away:hover, #more:hover {
+    color: black;
+    background-color: white;
+}
+/* #hm, #aw, #mr {
+    width: 100%;
+    height: inherit;
+} */
+
+#image-container {
+    position: relative;
+    height: 60vmax;
+}
+#image-top {
+    height: 100%;
+}
+#logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#span1, #span2 {
+    /* height: 8vmax; */
+    padding: 3vmax;
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+}
+#subtxt {
+    font-size: 14px;
+    opacity: .6;
+}
+
+
+
+/* style for the middle portion */
+
+div.title {
+    height: 10vmax;
+    padding-left: 8pt;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent cadetblue transparent;
+}
+span.titletext {
+    font-size: 40px;
+    font-family: 'Script MT Bold';
+}
+div.images {
+    padding: 5pt;
+}
+div.image-card {
+    width: 95%;
+    position: relative;
+}
+div.image-card > img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2pt;
+}
+span.label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 40%;
+    height: 5vmax;
+    font-size: 20px;
+    line-height: 5vmax;
+    text-align: center;
+}
+div.buttoncontainer {
+    height: 8vmax;
+}
+button.btn {
+    width: 50%;
+    height: auto;
+    padding: 5pt;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: rockwell;
+}
+button.btn:hover {
+    /* color: black; */
+    /* background-color: white; */
+    box-shadow: 0 2px 6px black;
+    transition: color .15s, background-color .15s, box-shadow .15s;
+}
+button.btn:active {
+    box-shadow: 0 1px 3px black;
+    transform: translateY(1px);
+    transition: box-shadow .15s, transform .1s;
+}
+
+
+
+
+
+/* style for the about section  */
+/* [[[[ contains address and contact form ]]]] */
+
+#about-container {
+    height: auto;
+    background-color: #9a9a9a;
+    padding: 10pt;
+}
+div.about {
+    width: 95%;
+    /* height: 40vh; */
+    padding: 5pt;
+    /* border: 1px solid red; */
+}
+div.profile-image {
+    width: 50%;
+    height: 40vmax;
+    /* border: 2px solid white; */
+}
+div.profile-image > img {
+    width: 50%;
+    height: 20vh;
+    object-fit: scale-down;
+    /* border: 1px solid white; */
+}
+span.details {
+    width: 50%;
+    /* height: 20vh; */
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
+div.information {
+    width: 50%;
+    height: 40vh;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+div.feedback-container {
+    height: auto;
+    padding: 5pt;
+}
+div.heading {
+    width: 95%;
+    height: 12vmax;
+    font-family: monospace;
+    font-size: 30px;
+}
+div.form-container {
+    width: 95%;
+}
+
+form {
+    font-size: 20px;
+    color: white;
+    transition: color .1s, background-color .1s;
+}
+form > input, form > textarea {
+    font-size: 18px;
+    font-family: monospace;
+    padding-left: 5pt;
+    border: none;
+    outline: none;
+    border-radius: 2pt;
+}
+form > input {
+    height: 5vmax;
+}
+form > textarea {
+    height: 16vmax;
+    resize: none;
+}
+form > .form-btn {
+    height: 4vmax;
+    margin-top: 5pt;
+    border: none;
+    outline: none;
+    border-radius: 2pt;
+    font-family: rockwell;
+    letter-spacing: 2pt;
+    color: #005e99;
+    background-color: #dedede;
+}
+form > .form-btn:hover {
+    background-color: hsl(0, 0%, 67%);
+}
+input:focus, textarea:focus {
+    background-color: #ccffcc;
+}
+label[class="req"]::after {
+    content: "*";
+    color: hsl(0, 100%, 38%);
+}
+
+
+div.footer {
+    margin-top: 2pt;
+}
+div.footer-right , div.footer-left {
+    height: 8vmax;
+}
+#poweredby {
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 2.5pt;
+    background-color: #acacac;
+    color: ;
+    border-radius: 2.5pt;
+    margin-top: 1pt;
+}
+
+
+

@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: monospace;
+    font-size: normal;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+}
+
+/* style for fonts */
+/* and background colors */
+
+
+
+.red {
+    background-color: #f52482;
+}
+.blue {
+    background-color: #1da8fc;
+}
+.green {
+    background-color: #08dd4c;
+}
+.yellow {
+    background-color: #f5c00a;
+}
+.dblue {
+    background-color: #008ecc;
+}
+.dred {
+    background-color: #db005a;
+}
+.white {
+    background-color: white;
+}
+.black {
+    background-color: black;
+}
+.grey {
+    background-color: #9a9a9a;
+}
+
+
+
+/* style for font colors and other font style /// */
+/* fell the magic */
+
+
+.fn-wh {
+    color: white;
+}
+.fn-blk {
+    color: black;
+}
+
+
+/* classes for width */
+/* for width - devided the whole viewport width into 12 equal columns */
+/* each column has a width of 8.33% of the vw */
+/* columns will have different size for mobile screens (small ones) */
+
+
+/* for mobile screens first */
+
+* [class*="col-"] {
+    width: 100%;
+}
+
+/*
+.col-m-1{width: 12.5vw;}
+.col-m-2{width:25vw;}
+.col-m-3{width:37.5vw;}
+.col-m-4{width:50vw;}
+.col-m-5{width:62.5vw;}
+.col-m-6{width:75vw;}
+.col-m-7{width:87.5vw;}
+.col-m-8{width:100vw;}
+*/
+
+
+
+
+/* for medium size screens -- size greater than 660px and less than 990px */
+/* the class names will start with col-sm- */
+
+
+@media screen and (min-width: 660px) {
+/* the styles for this classes will be applied only when the screen size is >= 660px and <990px */
+    
+    .col-sm-1{width: 12.5vw;}
+    .col-sm-2{width:25vw;}
+    .col-sm-3{width:37.5vw;}
+    .col-sm-4{width:50vw;}
+    .col-sm-5{width:62.5vw;}
+    .col-sm-6{width:75vw;}
+    .col-sm-7{width:87.5vw;}
+    .col-sm-8{width:100vw;}
+
+}
+
+
+
+
+/* for big screens -- big laptops or desktops */
+
+
+@media screen and (min-width: 990px) {
+    
+/*  this styles will be applied when screen size is >= 990px  */
+    
+    .col-1{width: 8.33vw;}
+    .col-2{width:16.66vw;}
+    .col-3{width:25vw;}
+    .col-4{width:33.33vw;}
+    .col-5{width:41.66vw;}
+    .col-6{width:50vw;}
+    .col-7{width:58.33vw;}
+    .col-8{width:66.66vw;}
+    .col-9{width:75vw;}
+    .col-10{width:83.33vw;}
+    .col-11{width:91.66vw;}
+    .col-12{width:100vw;}
+    
+}
+
+
+
