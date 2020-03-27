@@ -130,12 +130,14 @@ button.btn:active {
 div.about {
     width: 95%;
     /* height: 40vh; */
+    height: auto;
     padding: 5pt;
     /* border: 1px solid red; */
 }
 div.profile-image {
     width: 50%;
-    height: 40vmax;
+    min-width: 165px;
+    height: 16pc;
     /* border: 2px solid white; */
 }
 div.profile-image > img {
@@ -153,7 +155,8 @@ span.details {
 
 div.information {
     width: 50%;
-    height: 40vh;
+    min-width: 165px;
+    height: 16pc;
     font-family: monospace;
     font-size: 18px;
 }
@@ -186,14 +189,14 @@ form > input, form > textarea {
     border-radius: 2pt;
 }
 form > input {
-    height: 5vmax;
+    height: 20pt;
 }
 form > textarea {
-    height: 16vmax;
+    height: 60pt;
     resize: none;
 }
 form > .form-btn {
-    height: 4vmax;
+    height: 24pt;
     margin-top: 5pt;
     border: none;
     outline: none;
@@ -202,6 +205,7 @@ form > .form-btn {
     letter-spacing: 2pt;
     color: #005e99;
     background-color: #dedede;
+    overflow: hidden;
 }
 form > .form-btn:hover {
     background-color: hsl(0, 0%, 67%);
