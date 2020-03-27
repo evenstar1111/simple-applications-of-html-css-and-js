@@ -230,10 +230,24 @@ div.footer-right , div.footer-left {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 2.5pt;
     background-color: #acacac;
-    color: ;
     border-radius: 2.5pt;
     margin-top: 1pt;
+    animation-name: bg-style;
+    animation-duration: 8s;
+    animation-delay: .3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
+
+@keyframes bg-style {
+    0% {background-color: #acacac;}
+    25% {background-color: #02a736;}
+    50% {background-color: #c00151;}
+    75% {background-color: #1991db;}
+    100% {background-color: #acacac;}
+}
+
+
 
 
 
