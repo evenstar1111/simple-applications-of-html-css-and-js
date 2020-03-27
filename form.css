@@ -108,6 +108,7 @@ form input:focus {
 }
 
 form button {
+    margin-top: 2pt;
     height: 2rem;
     color: white;
     background-color: #e63900;
