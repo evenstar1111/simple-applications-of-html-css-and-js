@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+
+/*  style for the page  */
+/* for containers */
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(188, 213, 221);
+}
+
+#light-box-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+#slide-container {
+    position: relative;
+    width: 70%;
+    height: 70%;
+}
+
+#thumbnail-container {
+    width: 70%;
+    height: 20%;
+}
+
+
+
+/* for components */
+.modal-button {
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    border-radius: 2pt;
+    transition: all .3s;
+}
+.modal-button:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.815);
+    transform: scale(1.025);
+}
+
+
+
+#close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: white;
+}
+
+
+.slide {
+    width: 100%;
+    height: 100%;
+    animation-name: slideThrough;
+    animation-duration: .5s;
+    /* animation-timing-function: ease-in; */
+}
+.slide:not(:first-child) {
+    display: none;
+}
+
+.thumb-img {
+    width: 33%;
+    height: 100%;
+    opacity: .4;
+}
+.thumb-img.active {
+    opacity: 1;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all .3s;
+}
+
+.slider:hover {
+    background-color: rgba(255, 255, 255, 0.329);
+}
+#right {
+    top: 50%;
+    right: 2%;
+    transform: translateY(-50%);
+}
+#left {
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+}
+
+
+/* ANIMATION */
+@keyframes slideThrough {
+    from {transform: translateX(-30%);}
+    to{transform: translateX(0);}
+}
