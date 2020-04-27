@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> learn how to create </title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/defaults.css">
+    <link rel="stylesheet" href="css/sortList.css">
+    <link rel="stylesheet" href="faw/css/font-awesome.css">
+    <script src="jQuery/jQuery-v3.4.1.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container col-start">   
+        <div class="btn_container">
+            <button class="basic_btn" type="button" onclick="$('.filter_menu').toggleClass('inactive')" >Dropdown <i class="fa fa-chevron-down"></i> </button> 
+            <button id="sort_btn" class="basic_btn" type="button">Sort</button>
+        </div>
+
+        <div class="filter_menu inactive">
+            <input type="text" id="search_box" placeholder="Search">
+
+            <div class="search_items_container">
+                <div class="search_items">Stonehenge</div>
+                <div class="search_items">Pyramids</div>
+                <div class="search_items">Socratis</div>
+                <div class="search_items">Plato</div>
+                <div class="search_items">Spirit</div>
+                <div class="search_items">Taoism</div>
+                <div class="search_items">Stoism</div>
+                <div class="search_items">Collossium</div>
+                <div class="search_items">Great Wall of China</div>
+                <div class="search_items">Statue of Liberty</div>
+                <div class="search_items">Atlantis</div>
+                <div class="search_items">Heli-Copter</div>
+                <div class="search_items">New York</div>
+                <div class="search_items">London</div>
+                <div class="search_items">delhi</div>
+                <div class="search_items">AmritShar</div>
+                <div class="search_items">Bhootan</div>
+                <div class="search_items">Himalaya</div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script src="app/sortList.js"></script>
+    
+</body>
+</html>
