@@ -1,0 +1,129 @@
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+/* design for the custom components */
+.container {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.subcontainer {
+  position: relative;
+  width: 70%;
+  height: 12rem;
+  background-color: #555;
+}
+
+.sub-container {
+  width: 70%;
+  height: 12rem;
+  margin-top: 20px;
+  background-color: #eee;
+}
+
+.item {
+  position: absolute;
+  top: 1rem;
+  /* margin-top: -20px; */
+  left: 3rem;
+  z-index: 99;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 46, 185);
+}
+
+.item:nth-child(2) {
+  top: 4rem;
+}
+
+.item:nth-child(3) {
+  top: 7rem;
+}
+
+/* item shadow */
+.item-shadow {
+  position: absolute;
+  top: 1rem;
+  left: 3rem;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 46, 185, 0.267);
+}
+
+.item-shadow:nth-last-child(2) {
+  top: 4rem;
+}
+
+.item-shadow:last-child {
+  top: 7rem;
+}
+
+/* for the buttons */ 
+
+#play, #pause, #restart {
+  width: 150px;
+  height: 35px;
+  border: 2px solid green;
+  color: green;
+  outline: none;
+  cursor: pointer;
+  transition: all .2s linear;
+}
+
+#pause {
+  margin-left: 10px;
+  border: 2px solid gray;
+  color: gray;
+}
+
+#restart {
+  margin-left: 10px;
+  border: 2px solid rgb(255, 0, 119);
+  color: rgb(255, 0, 119);
+}
+
+#restart.active {
+  background-color: rgb(255, 0, 119);
+  color: white;
+}
+
+#play.active {
+  background-color: green;
+  color: white;
+}
+
+#pause.active {
+  background-color: gray;
+  color: white;
+}
+
+/* for the slider */ 
+
+#slider {
+  -webkit-appearance: none;
+  width: 60%;
+  height: 2px;
+  margin-top: 20px;
+  outline: none;
+  background-color: #333;
+}
+
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #333;
+  cursor: w-resize;
+}
